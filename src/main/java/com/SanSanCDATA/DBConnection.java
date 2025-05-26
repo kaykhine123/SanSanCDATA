@@ -16,7 +16,7 @@ public class DBConnection {
 			Class.forName("cdata.jdbc.sansan.SansanDriver");
 
 			Properties prop = new Properties();
-			prop.setProperty("APIKey", "0d293bb9668e40888b081d69f5225b31");
+			prop.setProperty("APIKey", "");
 			prop.setProperty("Verbosity", "3");
 			prop.setProperty("Logfile", "D:\\\\DataX\\\\testing\\\\cdata_sansan.log");
 			con = DriverManager.getConnection("jdbc:sansan:", prop);
